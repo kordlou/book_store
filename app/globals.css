@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/Qs_Iranyekan.woff') format('woff');
+}
+*{
+  /*direction: rtl;*/
+}
+
+body {
+  font-family: 'IRANYekan' !important;
+}
